@@ -7,6 +7,7 @@
     tools:context=".ui.ArtistViewHolder">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="387dp"
         android:layout_height="550dp"
         android:layout_marginStart="40dp"

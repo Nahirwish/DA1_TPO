@@ -9,5 +9,5 @@ import com.example.da1_tpo.R // Recursos
 
 class ArtistViewHolder (itemView: View) : RecyclerView.ViewHolder(itemView) {
     val name: TextView = itemView.findViewById(R.id.buscar)
-    //val picture: ImageView = itemView.findViewById(R.id.)
+    val picture: ImageView = itemView.findViewById(R.id.)
 }

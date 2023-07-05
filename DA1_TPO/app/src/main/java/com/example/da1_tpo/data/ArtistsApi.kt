@@ -8,5 +8,5 @@ import java.net.URL
 
 interface ArtistsApi {
     @GET("/search")
-    fun getArtists(@Query("name") name: String, @Query("picture") picture: URL): Call<ArrayList<Artist>>
+    fun getArtists(@Query("q") name: String) : Call<ArrayList<Artist>>
 }

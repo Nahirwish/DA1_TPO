@@ -5,6 +5,6 @@ import java.net.URL
 data class Artist (
     val id: Int,
     val name: String,
-    val picture: URL,
+    val picture: String,
 
 )
